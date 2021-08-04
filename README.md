@@ -1,4 +1,6 @@
-## `console_error_panic_hook`
+## `console_log_panic_hook`
+
+This fork of `console_error_panic_hook` uses `console.log` instead of `console.error`.
 
 [![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)
 [![](https://img.shields.io/crates/v/console_error_panic_hook.svg)](https://crates.io/crates/console_error_panic_hook)

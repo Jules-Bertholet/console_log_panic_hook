@@ -82,7 +82,7 @@ cfg_if! {
 
         #[wasm_bindgen]
         extern {
-            #[wasm_bindgen(js_namespace = console)]
+            #[wasm_bindgen(js_namespace = console, js_name = "log")]
             fn error(msg: String);
 
             type Error;
